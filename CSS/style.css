@@ -1,0 +1,68 @@
+/*
+white: #F5F5F5
+dark: #283739
+highlight: #A9C52F
+secondary: #228896*/
+body, html{
+	height: 100%;
+	color: #384259;
+}
+
+.header {color:white;background-color:transparent;} 
+.header.active {color:#777;background-color:white;}
+
+#hero{
+	padding-top: 30%;
+	background: url("../img/hero.jpg") center center fixed;
+	background-size: cover;
+	background-attachment: scroll;
+	height: 100%;
+	text-align: center;
+	font-family: vendana;
+
+}
+/*kalo */
+#about {
+	padding-top: 4em;
+	padding-bottom: 4em;
+	color: #228896;
+	background-color: #283739;
+}
+
+.text-inverse{
+	color:#F5F5F5;
+}
+/*hero itu gambar yg besar*/
+
+#hero .container{
+	border-right: 5px solid #C4EDDE;
+}
+
+#skills ul li{
+	list-style: none;
+}
+
+#resume{
+	padding-top: 4em;
+}
+#skills{
+    list-style=none;
+}
+
+footer{
+	padding-top: 40px;
+	padding-bottom: 40px;
+	background-color: #228896;
+}
+
+dl{
+	padding-left: 20px;
+}
+
+#portfolio{	
+	padding-bottom: 50px;
+}
+
+.active { 
+	background-color: white;
+}
