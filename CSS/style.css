@@ -9,15 +9,9 @@ secondary: #AC4C5E*/
 body, html{
 	height: 100%;
 	color: #5C476F;
-<<<<<<< HEAD
 	overflow: scroll;
-=======
-	overflow: auto;
->>>>>>> 7a62e18a3af30ff668d8ca625525e4ef0530e67b
 }
 
-.header {opacity: currentColor;}
-.header.active {color:#777;background-color:white;}
 
 #nama{
 	border:2px solid black;
@@ -26,6 +20,7 @@ body, html{
 	float:left;
 	margin-top:4px;
 	margin-right:8px;
+	font-size: 50px;
 	font-family: 'Pacifico', cursive;
 
 }
