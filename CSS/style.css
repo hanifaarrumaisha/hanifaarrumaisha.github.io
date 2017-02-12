@@ -1,0 +1,132 @@
+/*
+white: #EEEEEE
+dark: #5C476F
+highlight: #FFBC65
+secondary: #AC4C5E*/
+body, html{
+	height: 100%;
+	color: #5C476F;
+}
+
+.header {opacity: currentColor;}
+.header.active {color:#777;background-color:white;}
+
+#nama{
+	border:2px solid black;
+	padding-left:2px;
+	padding-right:2px;
+	float:left;
+	margin-top:4px;
+	margin-right:8px;
+	font-family: 'Pacifico', cursive;
+
+}
+
+#nama:visited, #nama:link, #nama:hover{
+	color:black;
+}
+
+#hero{
+	padding-top: 20%;
+	background: url("../1.jpg") center center fixed;
+	background-size: cover;
+	background-attachment: scroll;
+	height: 100%;
+	text-align: center;
+	font-family: 'Acme', sans-serif;
+}
+#univ{
+	font-family: 'Exo', sans-serif;
+}
+
+#about h2{
+	font-family: 'Courgette', cursive;
+}
+/*kalo */
+#about {
+	padding-top: 4em;
+	padding-bottom: 4em;
+	color: #AC4C5E;
+	background-color: #FFBC65;
+}
+
+.text-inverse{
+	color:#F5F5F5;
+}
+/*hero itu gambar yg besar*/
+
+#hero .container{
+	border: 5px solid #C4EDD;
+}
+
+#skills ul li{
+	list-style: none;
+}
+
+#resume{
+	padding-top: 4em;
+	background-color: #AC4C5E;
+	color: #EEEEEE;
+}
+#skills{
+    list-style=none;
+}
+
+footer{
+	padding-top: 40px;
+	padding-bottom: 40px;
+	background-color: #228896;
+}
+
+dl{
+	padding-left: 20px;
+}
+
+#portfolio{
+	padding-bottom: 50px;
+}
+
+.active {
+	background-color: white;
+}
+
+#text{
+	vertical-align: middle;
+	margin-top: 10px;
+}
+
+#headHobi, #textHobi, #headWeb, #textHobi, #headRistek, #textRistek{
+	cursor: pointer;
+	padding-top: 20px;
+}
+
+#textHobi, #textWeb, #textRistek{
+	color: white;
+	text-align: justify;
+}
+
+#iconWeb{
+	text-align: right;
+}
+#hobi{
+	text-align: left;
+}
+
+#about h1{
+	text-align: center;
+}
+
+
+section > h2{
+	padding-bottom: 5px;
+	border-bottom-color: black;
+	border-bottom-style: solid;
+	border-bottom-style: outset;
+}
+
+div > h2{
+	padding-bottom: 5px;
+	border-bottom-color: white;
+	border-bottom-style: solid;
+	border-bottom-style: outset;
+}
