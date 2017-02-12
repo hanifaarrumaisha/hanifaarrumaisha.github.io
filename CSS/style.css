@@ -3,9 +3,13 @@ white: #EEEEEE
 dark: #5C476F
 highlight: #FFBC65
 secondary: #AC4C5E*/
+
+
+
 body, html{
 	height: 100%;
 	color: #5C476F;
+	overflow: auto;
 }
 
 .header {opacity: currentColor;}
