@@ -3,10 +3,17 @@ white: #EEEEEE
 dark: #5C476F
 highlight: #FFBC65
 secondary: #AC4C5E*/
+
+
+
 body, html{
 	height: 100%;
 	color: #5C476F;
+<<<<<<< HEAD
 	overflow: scroll;
+=======
+	overflow: auto;
+>>>>>>> 7a62e18a3af30ff668d8ca625525e4ef0530e67b
 }
 
 .header {opacity: currentColor;}
