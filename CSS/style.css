@@ -6,6 +6,7 @@ secondary: #AC4C5E*/
 body, html{
 	height: 100%;
 	color: #5C476F;
+	overflow: scroll;
 }
 
 .header {opacity: currentColor;}
